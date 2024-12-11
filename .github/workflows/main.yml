@@ -26,7 +26,6 @@ jobs:
       - name: Run unit tests
         run: |
           python -m unittest discover tests  # Запускаем все тесты из папки tests
-
   test-windows:
     runs-on: windows-latest  # Запуск на Windows
 
