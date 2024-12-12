@@ -6,10 +6,7 @@ class CircleTestCase(unittest.TestCase):
     def test_circle_area(self):
         """Площадь круга: радиус положительный."""
         self.assertAlmostEqual(circle_area(5), math.pi * 25)
-    def test_circle_area(self):
-        """Площадь круга: радиус положительный."""
-        self.assertAlmostEqual(circle_area(20), math.pi * 25)
-
+    
     def test_circle_area_zero(self):
         """Площадь круга: радиус равен 0."""
         self.assertEqual(circle_area(0), 0)
